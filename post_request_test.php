@@ -1,6 +1,6 @@
 <?php
 
-    $theVar = $_POST['Experience'];
-    echo "hello";
+    $theVar = $_REQUEST['Experience'];
+    echo $theVar;
 
 ?>
